@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25AF4063C404A453331E115A /* Pods_VasundharaTask_VasundharaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180EF2CA9D5B2B3D74AA2C64 /* Pods_VasundharaTask_VasundharaTaskUITests.framework */; };
+		65D6FB82FD375E6B7AF28A3B /* Pods_VasundharaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E17B7F1D03FB57FBC63424 /* Pods_VasundharaTaskTests.framework */; };
+		7DC358FB2B52D9BFEA4FCFF4 /* Pods_VasundharaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993A564FB31F0F44A6522A66 /* Pods_VasundharaTask.framework */; };
+		BD1EDD072B12131800CFB6FB /* BlinkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EDD062B12131800CFB6FB /* BlinkVC.swift */; };
+		BD1EDD092B121AA600CFB6FB /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EDD082B121AA600CFB6FB /* InputVC.swift */; };
+		BDE0584E2B11F4C500BB2A5C /* GamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */; };
+		BDE058502B11FC6B00BB2A5C /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */; };
+		BDE058522B11FC7E00BB2A5C /* GamesResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058512B11FC7E00BB2A5C /* GamesResource.swift */; };
+		BDE058542B11FCA000BB2A5C /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */; };
+		BDE058562B11FE8500BB2A5C /* GamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058552B11FE8500BB2A5C /* GamesModels.swift */; };
+		BDE058582B12090800BB2A5C /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE058572B12090800BB2A5C /* HeaderView.xib */; };
+		BDE0585A2B1209F500BB2A5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058592B1209F500BB2A5C /* HeaderView.swift */; };
 		BDF4CC922B11D7380046A6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */; };
 		BDF4CC942B11D7380046A6A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */; };
 		BDF4CC962B11D7380046A6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC952B11D7380046A6A7 /* ViewController.swift */; };
@@ -37,6 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180EF2CA9D5B2B3D74AA2C64 /* Pods_VasundharaTask_VasundharaTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VasundharaTask_VasundharaTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E339B2C117CBE17A21ED931 /* Pods-VasundharaTask-VasundharaTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTask-VasundharaTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-VasundharaTask-VasundharaTaskUITests/Pods-VasundharaTask-VasundharaTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		698BD0EE885F77A605870945 /* Pods-VasundharaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-VasundharaTaskTests/Pods-VasundharaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B188415C6D53498B998F6C1 /* Pods-VasundharaTask-VasundharaTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTask-VasundharaTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-VasundharaTask-VasundharaTaskUITests/Pods-VasundharaTask-VasundharaTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		993A564FB31F0F44A6522A66 /* Pods_VasundharaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VasundharaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73D3775D00B93CD5B108309 /* Pods-VasundharaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTask.debug.xcconfig"; path = "Target Support Files/Pods-VasundharaTask/Pods-VasundharaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E17B7F1D03FB57FBC63424 /* Pods_VasundharaTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VasundharaTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1EDD062B12131800CFB6FB /* BlinkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkVC.swift; sourceTree = "<group>"; };
+		BD1EDD082B121AA600CFB6FB /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesVC.swift; sourceTree = "<group>"; };
+		BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		BDE058512B11FC7E00BB2A5C /* GamesResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesResource.swift; sourceTree = "<group>"; };
+		BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
+		BDE058552B11FE8500BB2A5C /* GamesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModels.swift; sourceTree = "<group>"; };
+		BDE058572B12090800BB2A5C /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		BDE058592B1209F500BB2A5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BDF4CC8E2B11D7380046A6A7 /* VasundharaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VasundharaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +79,8 @@
 		BDF4CCB12B11D7390046A6A7 /* VasundharaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VasundharaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF4CCB52B11D7390046A6A7 /* VasundharaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasundharaTaskUITests.swift; sourceTree = "<group>"; };
 		BDF4CCB72B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasundharaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F27EAF72945346EBCBCFF20C /* Pods-VasundharaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTask.release.xcconfig"; path = "Target Support Files/Pods-VasundharaTask/Pods-VasundharaTask.release.xcconfig"; sourceTree = "<group>"; };
+		F7856D5279B378B4C4E81582 /* Pods-VasundharaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VasundharaTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-VasundharaTaskTests/Pods-VasundharaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC358FB2B52D9BFEA4FCFF4 /* Pods_VasundharaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D6FB82FD375E6B7AF28A3B /* Pods_VasundharaTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +104,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AF4063C404A453331E115A /* Pods_VasundharaTask_VasundharaTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F4208A09828E77482BB0417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				993A564FB31F0F44A6522A66 /* Pods_VasundharaTask.framework */,
+				180EF2CA9D5B2B3D74AA2C64 /* Pods_VasundharaTask_VasundharaTaskUITests.framework */,
+				B0E17B7F1D03FB57FBC63424 /* Pods_VasundharaTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A712E5A45B0BF81BD61277AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73D3775D00B93CD5B108309 /* Pods-VasundharaTask.debug.xcconfig */,
+				F27EAF72945346EBCBCFF20C /* Pods-VasundharaTask.release.xcconfig */,
+				3E339B2C117CBE17A21ED931 /* Pods-VasundharaTask-VasundharaTaskUITests.debug.xcconfig */,
+				8B188415C6D53498B998F6C1 /* Pods-VasundharaTask-VasundharaTaskUITests.release.xcconfig */,
+				F7856D5279B378B4C4E81582 /* Pods-VasundharaTaskTests.debug.xcconfig */,
+				698BD0EE885F77A605870945 /* Pods-VasundharaTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD1EDD0A2B12288D00CFB6FB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058512B11FC7E00BB2A5C /* GamesResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD1EDD0B2B12289700CFB6FB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BD1EDD0C2B1228A600CFB6FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD1EDD0D2B1228AD00CFB6FB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058552B11FE8500BB2A5C /* GamesModels.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		BD1EDD0E2B1228B800CFB6FB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC972B11D7380046A6A7 /* Main.storyboard */,
+				BDF4CC9F2B11D7390046A6A7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD1EDD0F2B1228DF00CFB6FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC952B11D7380046A6A7 /* ViewController.swift */,
+				BD1EDD062B12131800CFB6FB /* BlinkVC.swift */,
+				BD1EDD082B121AA600CFB6FB /* InputVC.swift */,
+				BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD1EDD102B1228FA00CFB6FB /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EDD112B12290200CFB6FB /* HeaderView */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BD1EDD112B12290200CFB6FB /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058572B12090800BB2A5C /* HeaderView.xib */,
+				BDE058592B1209F500BB2A5C /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		BD1EDD122B12291900CFB6FB /* SupportFilles */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */,
+				BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */,
+				BDF4CC9D2B11D7390046A6A7 /* Assets.xcassets */,
+			);
+			path = SupportFilles;
+			sourceTree = "<group>";
+		};
+		BD1EDD132B12294A00CFB6FB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC9A2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		BDF4CC852B11D7380046A6A7 = {
 			isa = PBXGroup;
 			children = (
+				BD1EDD132B12294A00CFB6FB /* CoreData */,
+				BD1EDD122B12291900CFB6FB /* SupportFilles */,
+				BD1EDD102B1228FA00CFB6FB /* XIB */,
 				BDF4CC902B11D7380046A6A7 /* VasundharaTask */,
 				BDF4CCAA2B11D7390046A6A7 /* VasundharaTaskTests */,
 				BDF4CCB42B11D7390046A6A7 /* VasundharaTaskUITests */,
 				BDF4CC8F2B11D7380046A6A7 /* Products */,
+				A712E5A45B0BF81BD61277AB /* Pods */,
+				6F4208A09828E77482BB0417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +249,13 @@
 		BDF4CC902B11D7380046A6A7 /* VasundharaTask */ = {
 			isa = PBXGroup;
 			children = (
-				BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */,
-				BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */,
-				BDF4CC952B11D7380046A6A7 /* ViewController.swift */,
-				BDF4CC972B11D7380046A6A7 /* Main.storyboard */,
-				BDF4CC9D2B11D7390046A6A7 /* Assets.xcassets */,
-				BDF4CC9F2B11D7390046A6A7 /* LaunchScreen.storyboard */,
+				BD1EDD0F2B1228DF00CFB6FB /* View */,
+				BD1EDD0E2B1228B800CFB6FB /* Storyboards */,
+				BD1EDD0D2B1228AD00CFB6FB /* DataModels */,
+				BD1EDD0C2B1228A600CFB6FB /* ViewModels */,
+				BD1EDD0B2B12289700CFB6FB /* Service */,
+				BD1EDD0A2B12288D00CFB6FB /* Resource */,
 				BDF4CCA22B11D7390046A6A7 /* Info.plist */,
-				BDF4CC9A2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld */,
 			);
 			path = VasundharaTask;
 			sourceTree = "<group>";
@@ -137,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF4CCBB2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "VasundharaTask" */;
 			buildPhases = (
+				BB414036FA29055FC94429DE /* [CP] Check Pods Manifest.lock */,
 				BDF4CC8A2B11D7380046A6A7 /* Sources */,
 				BDF4CC8B2B11D7380046A6A7 /* Frameworks */,
 				BDF4CC8C2B11D7380046A6A7 /* Resources */,
+				2FF443D6F35F5E81E2225BA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF4CCBE2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "VasundharaTaskTests" */;
 			buildPhases = (
+				4B79D5A3B74B010CD8B777DC /* [CP] Check Pods Manifest.lock */,
 				BDF4CCA32B11D7390046A6A7 /* Sources */,
 				BDF4CCA42B11D7390046A6A7 /* Frameworks */,
 				BDF4CCA52B11D7390046A6A7 /* Resources */,
@@ -172,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF4CCC12B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "VasundharaTaskUITests" */;
 			buildPhases = (
+				555575A67278E3C42EDF836F /* [CP] Check Pods Manifest.lock */,
 				BDF4CCAD2B11D7390046A6A7 /* Sources */,
 				BDF4CCAE2B11D7390046A6A7 /* Frameworks */,
 				BDF4CCAF2B11D7390046A6A7 /* Resources */,
+				E72EFDFADB17100BE353E9A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +389,7 @@
 				BDF4CCA12B11D7390046A6A7 /* LaunchScreen.storyboard in Resources */,
 				BDF4CC9E2B11D7390046A6A7 /* Assets.xcassets in Resources */,
 				BDF4CC992B11D7380046A6A7 /* Main.storyboard in Resources */,
+				BDE058582B12090800BB2A5C /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +409,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FF443D6F35F5E81E2225BA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask/Pods-VasundharaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask/Pods-VasundharaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask/Pods-VasundharaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B79D5A3B74B010CD8B777DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VasundharaTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		555575A67278E3C42EDF836F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VasundharaTask-VasundharaTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB414036FA29055FC94429DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VasundharaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72EFDFADB17100BE353E9A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask-VasundharaTaskUITests/Pods-VasundharaTask-VasundharaTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask-VasundharaTaskUITests/Pods-VasundharaTask-VasundharaTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VasundharaTask-VasundharaTaskUITests/Pods-VasundharaTask-VasundharaTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDF4CC8A2B11D7380046A6A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE058542B11FCA000BB2A5C /* HTTPUtility.swift in Sources */,
 				BDF4CC962B11D7380046A6A7 /* ViewController.swift in Sources */,
 				BDF4CC922B11D7380046A6A7 /* AppDelegate.swift in Sources */,
+				BDE058502B11FC6B00BB2A5C /* GamesViewModel.swift in Sources */,
+				BDE058562B11FE8500BB2A5C /* GamesModels.swift in Sources */,
+				BD1EDD092B121AA600CFB6FB /* InputVC.swift in Sources */,
+				BDE0585A2B1209F500BB2A5C /* HeaderView.swift in Sources */,
 				BDF4CC942B11D7380046A6A7 /* SceneDelegate.swift in Sources */,
+				BDE058522B11FC7E00BB2A5C /* GamesResource.swift in Sources */,
 				BDF4CC9C2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld in Sources */,
+				BD1EDD072B12131800CFB6FB /* BlinkVC.swift in Sources */,
+				BDE0584E2B11F4C500BB2A5C /* GamesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,12 +705,14 @@
 		};
 		BDF4CCBC2B11D7390046A6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73D3775D00B93CD5B108309 /* Pods-VasundharaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VasundharaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,12 +735,14 @@
 		};
 		BDF4CCBD2B11D7390046A6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27EAF72945346EBCBCFF20C /* Pods-VasundharaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VasundharaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -497,6 +765,7 @@
 		};
 		BDF4CCBF2B11D7390046A6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7856D5279B378B4C4E81582 /* Pods-VasundharaTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +786,7 @@
 		};
 		BDF4CCC02B11D7390046A6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698BD0EE885F77A605870945 /* Pods-VasundharaTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +807,7 @@
 		};
 		BDF4CCC22B11D7390046A6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E339B2C117CBE17A21ED931 /* Pods-VasundharaTask-VasundharaTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +826,7 @@
 		};
 		BDF4CCC32B11D7390046A6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B188415C6D53498B998F6C1 /* Pods-VasundharaTask-VasundharaTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
